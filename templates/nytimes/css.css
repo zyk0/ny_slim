@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "panton";
+  font-style: bold;
+  font-weight: normal;
+  src: local("/panton");
+  
+  src: url('/panton/Panton-BlackCaps.otf');
+  src: url('/panton/Panton-LightCaps.otf');
+}
+
+body {
+    background-color: #FFF1E0;
+	/*font-family: "panton", "Arial", sans-serif;*/
+}
+.container{
+	 background-color: #FFF1E0;
+}
+.zagolovok{
+	padding-bottom: 1.25rem;
+}
+.card-body{
+	padding: 5px 0px 5px 0px;
+	min-height: 0.9rem;
+}
+
+.card-title{
+	background-color: #F2DFCE;
+	font-family: Panton-BlackCaps, 'Panton-BlackCaps.otf', bold;
+	padding: 0px 5px 0px 5px;
+}
+.card {
+    max-height: 34.375rem; /*  500px; 100%  */
+	background-color: #FFF1E0;
+	overflow: hidden;
+}
+.card-text{
+	padding: 0px 5px 0px 5px;
+	font-family: Panton-LightCaps, 'Panton-LightCaps.otf';
+}
+
+.nytimg{
+	width: 15.625rem;
+	height: 15.625rem;
+}

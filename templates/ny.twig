@@ -1,0 +1,21 @@
+{% extends 'base.twig' %}
+
+{% block body %}
+
+    <h3 class="text-center display-4 blog-header-logo text-dark zagolovok">Новости New-York Times </h3>
+
+    <div id="news" class="container">
+        <news-list :results="results"></news-list>
+    </div>
+	
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<!-- axios v0.21.1-->
+	<script src="https://unpkg.com/vue"></script>
+	<!-- Vue.js v2.6.14 -->
+	<script src="templates/nytimes/api_key.js"></script>
+	<script src="templates/nytimes/app.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="templates/nytimes/css.css">
+
+{% endblock %}
+

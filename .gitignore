@@ -1,0 +1,6 @@
+composer.phar
+composer.lock
+desktop.ini
+/vendor/
+.idea/
+templates/nytimes/api_key.js

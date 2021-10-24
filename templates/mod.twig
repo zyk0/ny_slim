@@ -1,0 +1,43 @@
+{% extends 'base.twig' %}
+
+{% block body %}
+  <div class="container">
+    <img src="templates/img/1200.jpg" class="img-fluid">
+    <h1 class="mt-3 mb-3"> Mod</h1>
+    <div class="container mb-3">
+      <div class="row">
+        <span class="text-muted"> {{ post.published_at|date("d M Y") }}</span>
+      </div>
+    </div>
+    <div>
+	<p>
+	data: {{ datastatus }}
+	</p>
+	<p>
+	data: {{ dataok }}
+	</p>
+	<p>
+	data: {{ datahead }}
+	</p>
+	<p>
+	data: {{ databody }}
+	</p>
+	
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	Suspendisse eu nulla at arcu pulvinar semper et quis nulla. 
+	Suspendisse potenti. 
+	Fusce vitae auctor arcu. Integer posuere varius tellus et condimentum. 
+	Curabitur at lorem eget nulla suscipit maximus. 
+	Sed in nibh nulla. 
+	Pellentesque et pellentesque felis, vitae euismod dui. 
+	Duis ac scelerisque felis, id egestas sapien. 
+	Curabitur eu pulvinar risus, id auctor nisl. 
+	In dolor orci, convallis sit amet diam eget, tincidunt hendrerit turpis. 
+	Nullam suscipit orci rhoncus pretium mollis. 
+	Sed pellentesque et nulla in auctor. 
+	Nunc diam elit, ultricies quis ultricies ac, scelerisque ut erat. 
+	Nullam elementum at ex quis imperdiet. 
+	Mauris vel pulvinar lorem. Ut ullamcorper tincidunt efficitur.
+    </div>
+  </div>
+{% endblock %}

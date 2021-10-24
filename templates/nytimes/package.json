@@ -1,0 +1,9 @@
+{
+  "name": "nytimes-api-vue",
+  "version": "1.0.0",
+  "description": "fetch data from nytimes API",
+  "main": "app.js",
+  "author": "zyk0",
+  "repository": "https://github.com/zyk0/news_ny",  
+  "license": "ISC"
+}
